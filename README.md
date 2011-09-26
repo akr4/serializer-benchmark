@@ -42,12 +42,12 @@ execution: 10
 average: 13,909.2
 
 
+File Sizes
+--------------------------------------------------------------
+* access_log.msgpack 129552913
+* access_log.protobuf 131960417
+* access_log_Jul95 205242368
 
-access_log.msgpack 129552913
-access_log.protobuf 131960417
-access_log_Jul95 205242368
-
-access_log.msgpack.gz 20392167
-access_log.protobuf.gz 23322638
-ccess_log_Jul95.gz 20676672 
-
+* access_log.msgpack.gz 20392167
+* access_log.protobuf.gz 23322638
+* ccess_log_Jul95.gz 20676672 

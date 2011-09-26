@@ -1,0 +1,19 @@
+package net.physalis.accesslog.protobuf.schema;
+
+message AccessLogEntry {
+
+    required string host = 1;
+    required int64 timestamp = 2;
+    required Method method = 3;
+    required string requestUrl = 4;
+    required int32 status = 5;
+    required int32 bytes = 6;
+
+    enum Method {
+      GET = 0;
+      POST = 1;
+      HEAD = 2;
+      PUT = 3;
+      DELETE = 4;
+    }
+}
